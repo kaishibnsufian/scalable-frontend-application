@@ -2,8 +2,7 @@ name: Deploy PHP app to Azure Web App - frontendvid
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
@@ -11,14 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
-
-      # Optional sanity check (not required, but helpful)
-      - name: List files
-        run: |
-          echo "Repo files:"
-          ls -la
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
