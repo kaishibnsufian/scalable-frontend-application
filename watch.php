@@ -168,11 +168,9 @@
           <h3 id="title" class="text-white mb-1">Loading...</h3>
           <div id="desc" class="text-soft mb-3"></div>
 
-          <video id="player" class="w-100 rounded" controls playsinline></video>
+          <video id="player" class="w-50 h-50 rounded" controls playsinline></video>
 
-          <div class="text-soft small mt-2">
-            If the video does not play, your Blob container may be private. For a demo, set container access level to Blob/Public or switch to SAS URLs.
-          </div>
+         
         </div>
       </div>
 
@@ -205,4 +203,5 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
