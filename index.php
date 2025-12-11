@@ -2,7 +2,7 @@
   // Set this in Azure Frontend App Service > Configuration:
   // API_BASE_URL = https://YOUR-BACKEND-APP.azurewebsites.net
   $API_BASE = getenv("API_BASE_URL");
-  if (!$API_BASE) $API_BASE = "https://YOUR-BACKEND-APP.azurewebsites.net";
+  if (!$API_BASE) $API_BASE = "https://backendvid-c9b6agdya4g8egbt.francecentral-01.azurewebsites.net";
 ?>
 <!doctype html>
 <html lang="en">
@@ -200,3 +200,4 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
